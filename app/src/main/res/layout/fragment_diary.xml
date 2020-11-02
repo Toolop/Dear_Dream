@@ -20,10 +20,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:paddingBottom="60dp"
         tools:listitem="@layout/item" />
 
     <!-- Add diary notes -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addDiaryFab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="20dp"
